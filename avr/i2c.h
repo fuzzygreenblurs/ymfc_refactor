@@ -1,12 +1,4 @@
-/*
-references and code attribution:
-    http://www.brokking.net/ymfc-al_main.html
-    https://github.com/YifanJiangPolyU/MPU6050/
-    https://github.com/hexagon5un/AVR-Programming/tree/master/Chapter17_I2C
-    https://github.com/MikhailZhyhariev/mpu6050/
-    https://github.com/hollingerc/AVR/
-    https://www.electronicwings.com/avr-atmega/atmega1632-i2c
-*/
+
 
 #ifndef I2C
 #define I2C
