@@ -101,16 +101,16 @@ void gyro_Z_single_reading(uint8_t* buff) {
 }
 
 void accel_X_single_reading(uint8_t* buff) {
-    i2c_read_byte(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_XOUT_H, buff);
-    i2c_read_byte(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_XOUT_L, buff + 1);
+    i2c_read_from_device_register(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_XOUT_H, buff);
+    i2c_read_from_device_register(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_XOUT_L, buff + 1);
 }
 
 void accel_Y_single_reading(uint8_t* buff) {
-    i2c_read_byte(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_YOUT_H, buff);
-    i2c_read_byte(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_YOUT_L, buff + 1);
+    i2c_read_from_device_register(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_YOUT_H, buff);
+    i2c_read_from_device_register(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_YOUT_L, buff + 1);
 }
 
 void accel_Z_single_reading(uint8_t* buff) {
-    i2c_read_byte(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_ZOUT_H, buff);
-    i2c_read_byte(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_ZOUT_L, buff + 1);
+    i2c_read_from_device_register(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_ZOUT_H, buff);
+    i2c_read_from_device_register(VERIFIED_MPU_ADDRESS, MPU6050_ACCEL_ZOUT_L, buff + 1);
 }
