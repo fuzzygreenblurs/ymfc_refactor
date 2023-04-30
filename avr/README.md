@@ -14,7 +14,7 @@ This is a project purely for learning purposes, and I have made use of several r
 - https://github.com/hollingerc/AVR/
 - https://www.electronicwings.com/avr-atmega/atmega1632-i2c
 
-A shoutout to Joop Brokking's YMFC project, a wonderful resource to learn more about how quadcopters work and how to build one yourself at home! 
+Shoutout to [Joop Brokking's YMFC project](http://www.brokking.net/ymfc-al_main.html), a wonderful resource to learn more about how quadcopters work and how to build one yourself at home!
 
 
 
